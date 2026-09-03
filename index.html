@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testando Media queries</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body onresize="mudarTamanho()">
     <header class="cabecalho">
         <h1 class="cabecalho__titulo">Meu site</h1>
         <span class="material-symbols-outlined" id="burger" onclick="apareceMenu()">
@@ -26,10 +26,19 @@
     <main class="conteudo">
         <article class="artigo">
             <h2 class="artigo__titulo">Testando media queries</h2>
+            <h2 class="artigo__titulo2">Salmos 23</h2>
+
             <p class="artigo__texto">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio a, sunt vitae illo expedita quas dignissimos molestiae esse culpa consequatur earum nihil quia sit quos quidem possimus accusamus illum eos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis ipsam dolore est sint quibusdam voluptatem. Eveniet veritatis, esse sed quibusdam molestiae perferendis cumque at perspiciatis? Quasi modi provident sapiente.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis ipsam dolore est sint quibusdam voluptatem. Eveniet veritatis, esse sed quibusdam molestiae perferendis cumque at perspiciatis? Quasi modi provident sapiente.
+                ¹ O Senhor é o meu pastor, nada me faltará.
+                ² Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas.
+                ³ Refrigera a minha alma; guia-me pelas veredas da justiça por amor do seu nome.
+                ⁴ Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
+                ⁵ Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
+                ⁶ Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do Senhor por longos dias.
+            </p>
+            <p>
+                Salmos 23:1-6 | ACF
+                <a href="https://www.bibliaonline.com.br/acf/sl/23/1-6+" target="_blank" rel="noopener noreferrer">Acesso à bíblia</a>
             </p>
         </article>
     </main>

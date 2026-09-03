@@ -9,3 +9,14 @@ function apareceMenu(){
     }
 
 }
+
+function mudarTamaho(){
+    if (window.innerWidth >= 768){
+        menu.style.display = 'block';
+        menu.style.width = '100%';
+    }
+    else{
+        menu.style.display = 'none';
+        menu.style.width = '200px';
+    }
+}

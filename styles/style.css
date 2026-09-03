@@ -8,16 +8,16 @@ body{
     background-color: lightgray;
 }
 .cabecalho{
-    background-color: gray;
+    background-color: #004379;
 }
 .cabecalho__titulo{
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
 #burger{
-    background-color: rgb(19, 19, 19);
+    background-color: #0042a5;
     text-align: center;
     padding: 10px;
     display: block;
@@ -40,13 +40,13 @@ body{
     text-decoration: none;
     color: white;
     padding: 10px;
-    background-color: #333;
-    border-top: 2px solid gray;
+    background-color: #055596;
+    border-top: 2px solid #3F6E94;
     text-align: center;
 
 }
 .menu__link:hover{
-    background-color: #555;
+    background-color: #467499;
 }
 .conteudo{
     width: 90vw;
@@ -59,8 +59,31 @@ body{
 .artigo__titulo{
    padding-bottom: 20px;
 }
+.artigo__titulo2{
+    padding-bottom: 20px;
+    color: #467499;
+}
 .artigo__texto{
     text-align: justify;
     text-indent: 20px;
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+    .cabecalho__menu{
+        display: block;
+    }
+    .menu__lista{
+        display: flex;
+        
+    }
+    .menu__lista > li{
+        margin-right: 10px;
+    }
+    main {
+        width: 768px;
+    }
 }
